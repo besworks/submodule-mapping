@@ -6,6 +6,7 @@ This project demonstrates mapping NodeJS submodules as named imports with wildca
 
 ```
 git clone git@github.com:besworks/submodule-mapping.git
+cd submodule-mapping
 npm run start
 ```
 
