@@ -1,0 +1,20 @@
+{
+  "name": "submodule-mapping-test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "testing submodule imports/exports",
+  "main": "index.js",
+  "imports": {
+    "#common": "./common/index.js",
+    "#common/*": "./common/*/index.js"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "besworks",
+  "license": "MIT"
+}
